@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  
+}
+.main-container{
+    width: 100%;
+    height: 635px;
+    background-color:  rgb(0,0,0)k;
+    background-image: url(H.jpg);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    z-index: 0;
+}    
+.logo svg{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.small-container{
+    height: 530px;
+    width: 450px;
+    /* background-color: rgb(140, 0, 255); */
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 110px;
+    left: 460px;
+    border-radius: 4px 4px 4px 4px;
+    align-items: center;
+}
+
+h1{
+    text-align: start;
+    color: white;
+    margin-top: 40px;
+    margin-left:67px ;
+}
+.one {
+    height: 56px;
+    width: 314px;
+    margin-left:67px;
+    margin-top: 17px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 10px;
+    letter-spacing: inherit;
+    border-color: transparent;
+    background-color: transparent;
+    color: white;
+    line-height: 1.5px;
+    border:2px solid rgba(197, 170, 170, 0.603);
+}
+.two {
+    height: 56px;
+    width: 314px;
+    margin-left:67px;
+    margin-top: 17px;
+    border-radius: 5px 5px 5px 5px;
+    padding-left: 10px;
+    letter-spacing: inherit;
+    border-color: transparent;
+    line-height: 1.5px;
+    border:2px solid rgba(197, 170, 170, 0.603);
+    background-color: transparent;
+    color: white;
+}
+button {
+    height: 40px;
+    width: 314px;
+    margin-left: 75px;
+    margin-top: 17px;
+    background-color: red;
+    border-radius: 5px 5px 5px 5px;
+    color:white ;
+    border: none;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1;
+    letter-spacing: normal;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    line-height: 1;
+    letter-spacing: normal;
+}
+p{
+    height: 35px;
+    width: 70px;
+    color: wheat;
+    position: absolute;
+    top: 314px;
+    right: 163px;
+}
+.btn2{
+    height: 40px;
+    width: 314px;
+    margin-left: 75px;
+    margin-top: 17px;
+    background-color: red;
+    border-radius: 5px 5px 5px 5px;
+    color:white ;
+    border: none;
+    font-size: 16px;
+    font-weight: lighter;
+    margin-top: 70px;
+    align-items: center;
+    background-color:rgba(128, 128, 128, 0.3);
+}
+.btn2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    color: wheat;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: lighter;
+    line-height: 1;
+    letter-spacing: normal;
+}
+.forgot a{
+    height: 17px;
+    width: 140px;
+    position: absolute;
+    left: 170px;
+    top: 423px;
+    color: wheat;
+    text-decoration: none;
+    line-height: 1;
+    letter-spacing: normal;
+}
+.check input{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 460px;
+    left:80px;
+    color:white;
+}
+h4{
+    color: white;
+    position: absolute;
+    top: 466px;
+    left:110px;
+    letter-spacing: normal;
+    line-height: 1;
+    font-size:16px;
+    font: lighter;
+}
+.last p{
+    height: 14px;
+    width: 314px;
+    position: absolute;
+    top: 510px;
+    left: 80px;
+}
+.last a{
+    height: 14px;
+    width: 314px;
+    position: absolute;
+    top: 510px;
+    left: 195px;
+    color: white;
+    text-decoration: none;
+}
+/* footer */
+footer{
+    height: 350px;
+    width: 100%;
+    background-color: black;
+    z-index: -0;
+    position: absolute;
+}
+.footpanel1{
+    height: 250px;
+    width: 700px;
+    background-color:black;
+    position: absolute;
+    top: 90px;
+    left: 150px;
+    z-index: 0;
+}
+.footpanel1 a{
+    text-decoration: none;
+   padding-top: 15px;
+   color: white;
+   letter-spacing: normal;
+   line-height: 1;
+   font-size: 0.875rem;
+   font-weight: 400;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 37px;
+    list-style-type: none;
+    color:rgba(255,255,255,0.7);
+}
+ul li a{
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: normal;
+}
+select{
+    height: 30px;
+    width: 80px;
+    margin-top: 55px;
+    background-color: rgba(128, 128, 128, 0.3);
+    color: white;
+    filter: opacity(100%);
+    border: 0 solid transparent;
+    text-align: center;
+    border-radius: 4px 4px 4px 4px;
+    letter-spacing: inherit;
+    font-size: inherit;
+}
